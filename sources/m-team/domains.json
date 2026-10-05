@@ -1,179 +1,367 @@
 {
-  "collected_at": "2026-10-05T20:40:43+08:00",
-  "date": "2026-10-05",
+  "collected_at": "2026-10-06T01:34:34+08:00",
+  "date": "2026-10-06",
   "time_zone": "Asia/Shanghai",
-  "scope": "通过用户已登录的 Chrome 浏览 M-Team 主要模块、控制台服务选项、移动及备用登录入口、公开导航页、工单页和官方 Wiki；仅记录主机名和脱敏来源。",
+  "scope": "保留 2026-10-05 Chrome 初次采集，追加 2026-10-06 重新浏览核对、字体 CSS 引用和用户确认；只记录主机名、规则表达式及脱敏来源。按用户要求合并 M-Team 两个根域与 gateway996.com 根域，其余保留精确主机。",
   "pages_checked": [
     {
       "page_path": "https://kp.m-team.cc/browse/music",
-      "label": "音乐列表"
+      "label": "音乐列表",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/index",
-      "label": "首页"
+      "label": "首页",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/browse/movie",
-      "label": "电影列表"
+      "label": "电影列表",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/browse/tvshow",
-      "label": "电视列表"
+      "label": "电视列表",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/detail/{id}",
-      "label": "电影种子详情"
+      "label": "电影种子详情",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/detail/{id}",
-      "label": "电影详情底部和截图区域"
+      "label": "电影详情底部和截图区域",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/browse",
-      "label": "综合列表"
+      "label": "综合列表",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://wiki.m-team.cc/zh-tw/home",
-      "label": "Wiki 首页和官方链接"
+      "label": "Wiki 首页和官方链接",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/browse/adult",
-      "label": "成人分类资源"
+      "label": "成人分类资源",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://wiki.m-team.cc/zh-tw/siteurl",
-      "label": "官方网址入口说明"
+      "label": "官方网址入口说明",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/albums",
-      "label": "片单列表"
+      "label": "片单列表",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://wiki.m-team.cc/zh-tw/download-rules",
-      "label": "Wiki 下载规则"
+      "label": "Wiki 下载规则",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/forums",
-      "label": "论坛首页"
+      "label": "论坛首页",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://wiki.m-team.cc/zh-tw/faq",
-      "label": "Wiki 常见问题索引"
+      "label": "Wiki 常见问题索引",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://wiki.m-team.cc/zh-tw/trackerproblem",
-      "label": "Wiki Tracker 故障和服务器状态"
+      "label": "Wiki Tracker 故障和服务器状态",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/seek",
-      "label": "求种列表"
+      "label": "求种列表",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/offer",
-      "label": "候选列表"
+      "label": "候选列表",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/subtitle",
-      "label": "字幕列表"
+      "label": "字幕列表",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://wiki.m-team.cc/zh-tw/cf-choose-better-ip",
-      "label": "Wiki Cloudflare 网络说明"
+      "label": "Wiki Cloudflare 网络说明",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/team",
-      "label": "小组列表"
+      "label": "小组列表",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/showcase",
-      "label": "人物展示页面"
+      "label": "人物展示页面",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/showcase",
-      "label": "人物展示页面加载完成"
+      "label": "人物展示页面加载完成",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://m-team.cc/",
-      "label": "官方域名导航站"
+      "label": "官方域名导航站",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/usercp",
-      "label": "个人设定页面（仅域名）"
+      "label": "个人设定页面（仅域名）",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/usercp",
-      "label": "下载域名选项展开（未更改）"
+      "label": "下载域名选项展开（未更改）",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/usercp",
-      "label": "Tracker 域名选项展开（未更改）"
+      "label": "Tracker 域名选项展开（未更改）",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/usercp",
-      "label": "RSS 域名选项展开（未更改）"
+      "label": "RSS 域名选项展开（未更改）",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/browse/movie",
-      "label": "电影列表底部（触发后续封面加载）"
+      "label": "电影列表底部（触发后续封面加载）",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://h5.m-team.cc/",
-      "label": "移动版登录入口（未登录）"
+      "label": "移动版登录入口（未登录）",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://zp.m-team.io/login",
-      "label": "IO 入口登录页面（未登录）"
+      "label": "IO 入口登录页面（未登录）",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://ob.m-team.cc/login",
-      "label": "旧版入口页面"
+      "label": "旧版入口页面",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/browse",
-      "label": "游戏分类列表和底部封面"
+      "label": "游戏分类列表和底部封面",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/browse",
-      "label": "电子书分类列表和底部封面"
+      "label": "电子书分类列表和底部封面",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://ticket.m-team.io/",
-      "label": "官方工单入口（未提交）"
+      "label": "官方工单入口（未提交）",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/browse",
-      "label": "软件分类列表和底部封面"
+      "label": "软件分类列表和底部封面",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/upload",
-      "label": "发布表单（未提交）"
+      "label": "发布表单（未提交）",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/donate",
-      "label": "捐赠说明（未操作支付）"
+      "label": "捐赠说明（未操作支付）",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/donate",
-      "label": "捐赠页面加载完成（未操作支付）"
+      "label": "捐赠页面加载完成（未操作支付）",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/cards",
-      "label": "卡片页面（仅浏览）"
+      "label": "卡片页面（仅浏览）",
+      "date": "2026-10-05"
     },
     {
       "page_path": "https://kp.m-team.cc/bet",
-      "label": "活动页面（仅浏览）"
+      "label": "活动页面（仅浏览）",
+      "date": "2026-10-05"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/browse/adult",
+      "label": "原页面（已有资源记录，可能含历史）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/browse/movie",
+      "label": "电影列表（新标签页）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/detail/{id}",
+      "label": "电影详情样本 1（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/detail/{id}",
+      "label": "电影详情样本 2（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/index",
+      "label": "首页（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/browse/tvshow",
+      "label": "电视列表（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/browse/music",
+      "label": "音乐列表（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/browse",
+      "label": "综合列表（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/browse",
+      "label": "软件分类（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/browse",
+      "label": "游戏分类（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/browse",
+      "label": "电子书分类（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/browse/adult",
+      "label": "成人分类第 1 页（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/browse/adult",
+      "label": "成人分类第 2 页（分页后的 DOM；资源可能含第 1 页）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/forums",
+      "label": "论坛目录（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/albums",
+      "label": "片单（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/subtitle",
+      "label": "字幕列表（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/offer",
+      "label": "候选列表（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/seek",
+      "label": "求种列表（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/usercp",
+      "label": "控制台（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://h5.m-team.cc/",
+      "label": "手机版入口（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://wiki.m-team.cc/zh-tw/home",
+      "label": "官方 Wiki 首页（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://wiki.m-team.cc/zh-tw/siteurl",
+      "label": "官方 Wiki 站点网址页（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://h5.m-team.cc/",
+      "label": "手机版入口（独立保留样本）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/browse/adult",
+      "label": "成人分类第 2 页（刷新后的独立文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/upload",
+      "label": "发布页（只读新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/team",
+      "label": "小组列表（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/showcase",
+      "label": "展示列表（新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://kp.m-team.cc/cards",
+      "label": "卡片入口（只读新文档）",
+      "date": "2026-10-06"
+    },
+    {
+      "page_path": "https://ticket.m-team.io/",
+      "label": "工单入口（只读新文档）",
+      "date": "2026-10-06"
     }
   ],
   "limitations": [
-    "这是一次实际浏览所得的初始清单；未穷尽所有历史种子、帖子、用户图床、未来或未访问的功能。",
-    "页面入口、DOM 链接、资源清单和网关上游参数分别记录；出现域名不代表服务当前可用，也不证明域名法律归属。",
-    "浏览器观察资源清单可能保留 SPA 较早请求；observed_* 证据只证明本次浏览会话观察到该主机，不能当作每个页面的新请求。每个主机和证据类型仅保留首次记录，重复记录已归并；采集页面及状态单独列出。",
-    "nested_uri 仅证明图片 URL 参数引用该上游主机，不表示用户浏览器已经直接访问上游。nested_imdb、nested_douban 为资料链接目标。",
-    "备用和移动入口只查看了当前可访问页面或登录页；未执行额外登录、下载种子、探测 Tracker 或修改保存站点设置。",
-    "仅使用已观察到的精确主机名；未扩展根域通配规则、DNS 别名或猜测更多子域名。",
-    "外链和文档占位域名保留在记录中，但不加入任何规则文件。",
-    "记录已去除查询字符串、签名、passkey、账户信息和具体详情页编号。"
+    "这是实际浏览和用户补充所得的维护清单；未穷尽历史种子、帖子、用户图床、未来或未访问功能。",
+    "hostname 保存被观察／报告的精确主机，rule 可指定经过授权的 +.根域表达式。+. 覆盖根域及任意层级子域；不按共享 IP 合并域名。",
+    "按用户要求，仅 m-team.cc、m-team.io 和 gateway996.com 使用根域规则。独立下载服务、共享图床和其他依赖保持精确主机，不扩大为其他根域。",
+    "页面入口、DOM 引用、资源记录、用户确认及 CSS／网关参数引用分别记录。域名出现不能独立证明响应成功或服务当前可用。",
+    "资源清单可能包含 SPA 较早请求；原页面／分页记录已在说明中标注，新文档资源仍不提供 HTTP 状态或实际远端地址。",
+    "img.digitalcore.club 在本轮分页资源中出现，独立刷新未重现；用户随后确认已经检查。fonts.gstatic.com 是已观察 CSS 的条件引用，未观察实际字体请求。",
+    "ai.gateway996.com 来自用户报告和授权，不伪装成工具直接观察；与已有 api 网关合并为同一根域规则。",
+    "img1/2/3/9.doubanio.com 与 m.media-amazon.com 目前仅有 nested_uri 上游参数证据。本集合按关联主机全集保留它们，不声称它们是浏览器实际连接主机。",
+    "本轮未重现不能认定旧域名错误；保留原证据，未按未出现删除。外链和示例仍不加入规则。",
+    "浏览仅查看页面、展开服务选项及检查已观察 CSS；未下载种子、探测 Tracker 或选择保存站点设置。",
+    "脱敏记录不保留查询参数、签名、passkey、账号信息、Cookie 或具体详情页编号。"
   ],
   "domains": [
     {
@@ -186,9 +374,44 @@
         {
           "page_path": "https://kp.m-team.cc/browse/adult",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：原页面（已有资源记录，可能含历史）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：原页面（已有资源记录，可能含历史）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "observed_image",
+          "note": "本轮资源清单：原页面（已有资源记录，可能含历史）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
       ]
+    },
+    {
+      "hostname": "ai.gateway996.com",
+      "role": "service_dependency",
+      "purpose": "用户确认遗漏的网关主机；与 api.gateway996.com 合并为 gateway996.com 后缀规则",
+      "include_in_core": false,
+      "include_in_dependencies": true,
+      "evidence": [
+        {
+          "page_path": "https://ai.gateway996.com/",
+          "kind": "user_reported",
+          "note": "用户提供此网关地址、确认遗漏并批准与 api.gateway996.com 合并；该记录不是工具实际浏览证据。",
+          "date": "2026-10-06"
+        }
+      ],
+      "rule": "+.gateway996.com"
     },
     {
       "hostname": "api.gateway996.com",
@@ -200,14 +423,41 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/cards",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "observed_image",
+          "note": "本轮资源清单：电影列表（新标签页）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/detail/{id}",
+          "kind": "inline_style",
+          "note": "本轮页面 DOM／参数引用：电影详情样本 1（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：游戏分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：游戏分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.gateway996.com"
     },
     {
       "hostname": "api.m-team.cc",
@@ -219,9 +469,35 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "observed_other",
+          "note": "本轮资源清单：电影列表（新标签页）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/showcase",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：展示列表（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/showcase",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：展示列表（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/showcase",
+          "kind": "observed_image",
+          "note": "本轮资源清单：展示列表（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "api.m-team.io",
@@ -233,9 +509,17 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "observed_other",
+          "note": "本轮资源清单：电影列表（新标签页）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.io"
     },
     {
       "hostname": "api2.m-team.cc",
@@ -247,19 +531,29 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/showcase",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/showcase",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "observed_other",
+          "note": "本轮资源清单：电影列表（新标签页）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "avatars.githubusercontent.com",
@@ -271,7 +565,26 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：软件分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：软件分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "observed_image",
+          "note": "本轮资源清单：软件分类（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -285,7 +598,26 @@
         {
           "page_path": "https://kp.m-team.cc/browse/adult",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：成人分类第 1 页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：成人分类第 1 页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "observed_image",
+          "note": "本轮资源清单：成人分类第 1 页（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -299,7 +631,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：电影列表（新标签页）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -313,7 +652,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "nested_douban",
-          "note": "页面 URL 参数中的第三方目标主机"
+          "note": "页面 URL 参数中的第三方目标主机",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "nested_douban",
+          "note": "本轮页面 DOM／参数引用：电子书分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -327,17 +673,26 @@
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "visible_text",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "visible_domain",
-          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）"
+          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/usercp",
+          "kind": "visible_domain",
+          "note": "本轮再次展开查看 控制台下载域名选项，未选择或保存新值。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -351,7 +706,8 @@
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/cf-choose-better-ip",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -365,7 +721,8 @@
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/cf-choose-better-ip",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -379,7 +736,26 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/team",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：小组列表（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/team",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：小组列表（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/team",
+          "kind": "observed_image",
+          "note": "本轮资源清单：小组列表（新文档）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -393,7 +769,29 @@
         {
           "page_path": "https://h5.m-team.cc/",
           "kind": "observed_stylesheet",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://h5.m-team.cc/",
+          "kind": "observed_stylesheet",
+          "note": "本轮资源清单：手机版入口（新文档）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "hostname": "fonts.gstatic.com",
+      "role": "service_dependency",
+      "purpose": "手机版 Inter 字体 CSS 引用的字体文件主机（条件依赖，未观察实际字体请求）",
+      "include_in_core": false,
+      "include_in_dependencies": true,
+      "evidence": [
+        {
+          "page_path": "https://h5.m-team.cc/",
+          "kind": "stylesheet_reference",
+          "note": "已观察到的 fonts.googleapis.com CSS 内，Inter 字体 src 明确引用；未观察实际字体请求。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -407,12 +805,20 @@
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "visible_text",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/usercp",
+          "kind": "visible_domain",
+          "note": "本轮再次展开查看 控制台下载域名选项，未选择或保存新值。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -426,12 +832,14 @@
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/cf-choose-better-ip",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/cf-choose-better-ip",
           "kind": "visible_text",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -445,54 +853,119 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://h5.m-team.cc/",
           "kind": "page",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://h5.m-team.cc/",
           "kind": "stylesheet_or_link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://h5.m-team.cc/",
           "kind": "script",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://h5.m-team.cc/",
           "kind": "dom_attribute",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://h5.m-team.cc/",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://h5.m-team.cc/",
           "kind": "observed_script",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://h5.m-team.cc/",
           "kind": "observed_stylesheet",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://h5.m-team.cc/",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://h5.m-team.cc/",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：电影列表（新标签页）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://h5.m-team.cc/",
+          "kind": "stylesheet_or_link",
+          "note": "本轮页面 DOM／参数引用：手机版入口（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://h5.m-team.cc/",
+          "kind": "script",
+          "note": "本轮页面 DOM／参数引用：手机版入口（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://h5.m-team.cc/",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：手机版入口（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://h5.m-team.cc/",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：手机版入口（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://h5.m-team.cc/",
+          "kind": "observed_script",
+          "note": "本轮资源清单：手机版入口（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://h5.m-team.cc/",
+          "kind": "observed_stylesheet",
+          "note": "本轮资源清单：手机版入口（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://h5.m-team.cc/",
+          "kind": "observed_other",
+          "note": "本轮资源清单：手机版入口（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://h5.m-team.cc/",
+          "kind": "observed_image",
+          "note": "本轮资源清单：手机版入口（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "h5.m-team.io",
@@ -504,9 +977,11 @@
         {
           "page_path": "https://zp.m-team.io/login",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         }
-      ]
+      ],
+      "rule": "+.m-team.io"
     },
     {
       "hostname": "hs1.holysalt.org",
@@ -518,12 +993,20 @@
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "visible_text",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/usercp",
+          "kind": "visible_domain",
+          "note": "本轮再次展开查看 控制台下载域名选项，未选择或保存新值。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -537,12 +1020,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/upload",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -556,7 +1041,8 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -570,12 +1056,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -589,7 +1077,8 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -603,7 +1092,8 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -617,7 +1107,29 @@
         {
           "page_path": "https://kp.m-team.cc/browse/tvshow",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "hostname": "img.digitalcore.club",
+      "role": "service_dependency",
+      "purpose": "M-Team 分类分页中观察到的第三方图片资源；用户确认已检查，独立刷新未稳定重现",
+      "include_in_core": false,
+      "include_in_dependencies": true,
+      "evidence": [
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "observed_image",
+          "note": "本轮资源清单：成人分类第 2 页（分页后的 DOM；资源可能含第 1 页）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "user_confirmed",
+          "note": "用户明确确认此主机已检查，并批准补入域名集。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -631,14 +1143,35 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/index",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：首页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/index",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：首页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/index",
+          "kind": "observed_image",
+          "note": "本轮资源清单：首页（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "img1.doubanio.com",
@@ -650,7 +1183,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/movie",
           "kind": "nested_uri",
-          "note": "页面 URL 参数中的第三方目标主机"
+          "note": "页面 URL 参数中的第三方目标主机",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "nested_uri",
+          "note": "本轮资源 URL 的上游／资料参数：电影列表（新标签页）；不表示浏览器直接访问该主机。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -664,7 +1204,26 @@
         {
           "page_path": "https://kp.m-team.cc/browse/adult",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：成人分类第 1 页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：成人分类第 1 页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "observed_image",
+          "note": "本轮资源清单：成人分类第 1 页（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -678,7 +1237,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/tvshow",
           "kind": "nested_uri",
-          "note": "页面 URL 参数中的第三方目标主机"
+          "note": "页面 URL 参数中的第三方目标主机",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/tvshow",
+          "kind": "nested_uri",
+          "note": "本轮资源 URL 的上游／资料参数：电视列表（新文档）；不表示浏览器直接访问该主机。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -692,7 +1258,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/movie",
           "kind": "nested_uri",
-          "note": "页面 URL 参数中的第三方目标主机"
+          "note": "页面 URL 参数中的第三方目标主机",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "nested_uri",
+          "note": "本轮资源 URL 的上游／资料参数：电影列表（新标签页）；不表示浏览器直接访问该主机。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -706,7 +1279,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "nested_uri",
-          "note": "页面 URL 参数中的第三方目标主机"
+          "note": "页面 URL 参数中的第三方目标主机",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "nested_uri",
+          "note": "本轮资源 URL 的上游／资料参数：电影列表（新标签页）；不表示浏览器直接访问该主机。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -720,12 +1300,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -739,7 +1321,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/adult",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "observed_image",
+          "note": "本轮资源清单：原页面（已有资源记录，可能含历史）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -753,7 +1342,8 @@
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/cf-choose-better-ip",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -767,7 +1357,8 @@
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/cf-choose-better-ip",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -781,24 +1372,59 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "page",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_font",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/siteurl",
           "kind": "visible_text",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：电影列表（新标签页）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "observed_font",
+          "note": "本轮资源清单：电影列表（新标签页）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/music",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：音乐列表（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/team",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：小组列表（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/team",
+          "kind": "observed_image",
+          "note": "本轮资源清单：小组列表（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "m-team.cc",
@@ -810,29 +1436,41 @@
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/home",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/home",
           "kind": "visible_text",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/cf-choose-better-ip",
           "kind": "visible_domain",
-          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）"
+          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://m-team.cc/",
           "kind": "page",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://m-team.cc/",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://wiki.m-team.cc/zh-tw/home",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：官方 Wiki 首页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "m.media-amazon.com",
@@ -844,7 +1482,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/tvshow",
           "kind": "nested_uri",
-          "note": "页面 URL 参数中的第三方目标主机"
+          "note": "页面 URL 参数中的第三方目标主机",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/tvshow",
+          "kind": "nested_uri",
+          "note": "本轮资源 URL 的上游／资料参数：电视列表（新文档）；不表示浏览器直接访问该主机。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -858,12 +1503,26 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "nested_douban",
-          "note": "页面 URL 参数中的第三方目标主机"
+          "note": "页面 URL 参数中的第三方目标主机",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/detail/{id}",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "nested_douban",
+          "note": "本轮页面 DOM／参数引用：电影列表（新标签页）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/detail/{id}",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：电影详情样本 1（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -877,7 +1536,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "nested_douban",
-          "note": "页面 URL 参数中的第三方目标主机"
+          "note": "页面 URL 参数中的第三方目标主机",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/music",
+          "kind": "nested_douban",
+          "note": "本轮页面 DOM／参数引用：音乐列表（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -891,54 +1557,71 @@
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/siteurl",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/siteurl",
           "kind": "visible_text",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ob.m-team.cc/login",
           "kind": "page",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ob.m-team.cc/login",
           "kind": "stylesheet_or_link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ob.m-team.cc/login",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ob.m-team.cc/login",
           "kind": "script",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ob.m-team.cc/login",
           "kind": "observed_stylesheet",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ob.m-team.cc/login",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ob.m-team.cc/login",
           "kind": "observed_script",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ob.m-team.cc/login",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://wiki.m-team.cc/zh-tw/siteurl",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：官方 Wiki 站点网址页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "open.cd",
@@ -950,12 +1633,20 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/music",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：音乐列表（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -969,7 +1660,8 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -983,7 +1675,26 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：软件分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：软件分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "observed_image",
+          "note": "本轮资源清单：软件分类（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -997,7 +1708,26 @@
         {
           "page_path": "https://kp.m-team.cc/browse/adult",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：成人分类第 1 页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：成人分类第 1 页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "observed_image",
+          "note": "本轮资源清单：成人分类第 1 页（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1011,7 +1741,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/music",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：音乐列表（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1025,7 +1762,8 @@
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/cf-choose-better-ip",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -1039,19 +1777,29 @@
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "visible_text",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "visible_domain",
-          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）"
+          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/usercp",
+          "kind": "visible_domain",
+          "note": "本轮再次展开查看 控制台 RSS 选项，未选择或保存新值。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "rss.m-team.io",
@@ -1063,19 +1811,29 @@
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "visible_text",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "visible_domain",
-          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）"
+          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/usercp",
+          "kind": "visible_domain",
+          "note": "本轮再次展开查看 控制台 RSS 选项，未选择或保存新值。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.io"
     },
     {
       "hostname": "s2.loli.net",
@@ -1087,12 +1845,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/upload",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -1106,12 +1866,32 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：软件分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：软件分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "observed_image",
+          "note": "本轮资源清单：软件分类（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1125,7 +1905,26 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：游戏分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：游戏分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "observed_image",
+          "note": "本轮资源清单：游戏分类（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1139,7 +1938,8 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -1153,44 +1953,101 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "stylesheet_or_link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "script",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_stylesheet",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_script",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://zp.m-team.io/login",
           "kind": "dom_attribute",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "stylesheet_or_link",
+          "note": "本轮页面 DOM／参数引用：电影列表（新标签页）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：电影列表（新标签页）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：电影列表（新标签页）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "script",
+          "note": "本轮页面 DOM／参数引用：电影列表（新标签页）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "observed_stylesheet",
+          "note": "本轮资源清单：电影列表（新标签页）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "observed_script",
+          "note": "本轮资源清单：电影列表（新标签页）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "observed_other",
+          "note": "本轮资源清单：电影列表（新标签页）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "observed_image",
+          "note": "本轮资源清单：电影列表（新标签页）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "static.qobuz.com",
@@ -1202,7 +2059,20 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/music",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：音乐列表（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/music",
+          "kind": "observed_image",
+          "note": "本轮资源清单：音乐列表（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1216,12 +2086,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/upload",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -1235,7 +2107,26 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：游戏分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：游戏分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "observed_image",
+          "note": "本轮资源清单：游戏分类（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1249,7 +2140,8 @@
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/cf-choose-better-ip",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -1263,12 +2155,20 @@
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/home",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/home",
           "kind": "visible_text",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://wiki.m-team.cc/zh-tw/home",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：官方 Wiki 首页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1282,59 +2182,147 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/index",
           "kind": "visible_text",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ticket.m-team.io/",
           "kind": "page",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ticket.m-team.io/",
           "kind": "stylesheet_or_link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ticket.m-team.io/",
           "kind": "script",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ticket.m-team.io/",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ticket.m-team.io/",
           "kind": "observed_stylesheet",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ticket.m-team.io/",
           "kind": "observed_script",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ticket.m-team.io/",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ticket.m-team.io/",
           "kind": "observed_font",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://ticket.m-team.io/",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：电影列表（新标签页）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://ticket.m-team.io/",
+          "kind": "stylesheet_or_link",
+          "note": "本轮页面 DOM／参数引用：工单入口（只读新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://ticket.m-team.io/",
+          "kind": "script",
+          "note": "本轮页面 DOM／参数引用：工单入口（只读新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://ticket.m-team.io/",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：工单入口（只读新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://ticket.m-team.io/",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：工单入口（只读新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://ticket.m-team.io/",
+          "kind": "observed_stylesheet",
+          "note": "本轮资源清单：工单入口（只读新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://ticket.m-team.io/",
+          "kind": "observed_script",
+          "note": "本轮资源清单：工单入口（只读新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://ticket.m-team.io/",
+          "kind": "observed_image",
+          "note": "本轮资源清单：工单入口（只读新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://ticket.m-team.io/",
+          "kind": "observed_font",
+          "note": "本轮资源清单：工单入口（只读新文档）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://ticket.m-team.io/",
+          "kind": "observed_other",
+          "note": "本轮资源清单：工单入口（只读新文档）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.io"
+    },
+    {
+      "hostname": "tp.m-team.cc",
+      "role": "first_party",
+      "purpose": "小组页面观察到的站内图片资源主机（新文档资源记录；未取得对应 DOM 加载状态）",
+      "include_in_core": true,
+      "include_in_dependencies": false,
+      "evidence": [
+        {
+          "page_path": "https://kp.m-team.cc/team",
+          "kind": "observed_image",
+          "note": "本轮资源清单：小组列表（新文档）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        }
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "tra1.m-team.cc",
@@ -1346,14 +2334,23 @@
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "visible_domain",
-          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）"
+          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/usercp",
+          "kind": "visible_domain",
+          "note": "本轮再次展开查看 控制台 Tracker 选项，未选择或保存新值。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "tra1.m-team.io",
@@ -1365,14 +2362,23 @@
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "visible_domain",
-          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）"
+          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/usercp",
+          "kind": "visible_domain",
+          "note": "本轮再次展开查看 控制台 Tracker 选项，未选择或保存新值。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.io"
     },
     {
       "hostname": "tra99.manfuz.co",
@@ -1384,12 +2390,20 @@
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "visible_domain",
-          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）"
+          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/usercp",
+          "kind": "visible_domain",
+          "note": "本轮再次展开查看 控制台 Tracker 选项，未选择或保存新值。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1403,7 +2417,8 @@
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/cf-choose-better-ip",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -1417,14 +2432,23 @@
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "visible_domain",
-          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）"
+          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/usercp",
+          "kind": "visible_domain",
+          "note": "本轮再次展开查看 控制台 Tracker 选项，未选择或保存新值。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "tracker.m-team.io",
@@ -1436,14 +2460,23 @@
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/usercp",
           "kind": "visible_domain",
-          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）"
+          "note": "页面可见文字或代码示例中出现该域名（仅采集主机名）",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/usercp",
+          "kind": "visible_domain",
+          "note": "本轮再次展开查看 控制台 Tracker 选项，未选择或保存新值。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.io"
     },
     {
       "hostname": "upload.wikimedia.org",
@@ -1455,12 +2488,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/upload",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -1474,7 +2509,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/adult",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：成人分类第 1 页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1488,7 +2530,14 @@
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/home",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://wiki.m-team.cc/zh-tw/home",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：官方 Wiki 首页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1502,54 +2551,119 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/home",
           "kind": "page",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/home",
           "kind": "stylesheet_or_link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/home",
           "kind": "script",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/home",
           "kind": "observed_stylesheet",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/home",
           "kind": "observed_script",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/home",
           "kind": "observed_other",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/home",
           "kind": "observed_font",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/home",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/trackerproblem",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：电影列表（新标签页）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://wiki.m-team.cc/zh-tw/home",
+          "kind": "stylesheet_or_link",
+          "note": "本轮页面 DOM／参数引用：官方 Wiki 首页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://wiki.m-team.cc/zh-tw/home",
+          "kind": "script",
+          "note": "本轮页面 DOM／参数引用：官方 Wiki 首页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://wiki.m-team.cc/zh-tw/home",
+          "kind": "inline_style",
+          "note": "本轮页面 DOM／参数引用：官方 Wiki 首页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://wiki.m-team.cc/zh-tw/home",
+          "kind": "observed_stylesheet",
+          "note": "本轮资源清单：官方 Wiki 首页（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://wiki.m-team.cc/zh-tw/home",
+          "kind": "observed_script",
+          "note": "本轮资源清单：官方 Wiki 首页（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://wiki.m-team.cc/zh-tw/home",
+          "kind": "observed_other",
+          "note": "本轮资源清单：官方 Wiki 首页（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://wiki.m-team.cc/zh-tw/home",
+          "kind": "observed_font",
+          "note": "本轮资源清单：官方 Wiki 首页（新文档）；来源类型 resource，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://wiki.m-team.cc/zh-tw/home",
+          "kind": "observed_image",
+          "note": "本轮资源清单：官方 Wiki 首页（新文档）；来源类型 resource, computedStyle，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "www.anduinos.com",
@@ -1561,12 +2675,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/upload",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -1580,7 +2696,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/adult",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/adult",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：成人分类第 1 页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1594,7 +2717,8 @@
         {
           "page_path": "https://kp.m-team.cc/detail/{id}",
           "kind": "visible_text",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -1608,7 +2732,26 @@
         {
           "page_path": "https://kp.m-team.cc/browse",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image",
+          "note": "本轮页面 DOM／参数引用：软件分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "image_current",
+          "note": "本轮页面 DOM／参数引用：软件分类（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse",
+          "kind": "observed_image",
+          "note": "本轮资源清单：软件分类（新文档）；来源类型 resource, attribute，不独立证明 HTTP 状态或远端地址。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1622,7 +2765,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "nested_imdb",
-          "note": "页面 URL 参数中的第三方目标主机"
+          "note": "页面 URL 参数中的第三方目标主机",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://kp.m-team.cc/browse/movie",
+          "kind": "nested_imdb",
+          "note": "本轮页面 DOM／参数引用：电影列表（新标签页）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1636,9 +2786,11 @@
         {
           "page_path": "https://m-team.cc/",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         }
-      ]
+      ],
+      "rule": "+.m-team.cc"
     },
     {
       "hostname": "www.pescms.com",
@@ -1650,7 +2802,14 @@
         {
           "page_path": "https://ticket.m-team.io/",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://ticket.m-team.io/",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：工单入口（只读新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
       ]
     },
@@ -1664,12 +2823,14 @@
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "image",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://kp.m-team.cc/browse/music",
           "kind": "observed_image",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
         }
       ]
     },
@@ -1683,24 +2844,59 @@
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/siteurl",
           "kind": "link",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://wiki.m-team.cc/zh-tw/siteurl",
           "kind": "visible_text",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://zp.m-team.io/login",
           "kind": "page",
-          "note": "页面地址、链接或资源属性中出现"
+          "note": "页面地址、链接或资源属性中出现",
+          "date": "2026-10-05"
         },
         {
           "page_path": "https://zp.m-team.io/login",
           "kind": "observed_font",
-          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求"
+          "note": "浏览器已观察资源清单中出现；SPA 页面可能保留此前请求",
+          "date": "2026-10-05"
+        },
+        {
+          "page_path": "https://wiki.m-team.cc/zh-tw/siteurl",
+          "kind": "link",
+          "note": "本轮页面 DOM／参数引用：官方 Wiki 站点网址页（新文档）；引用不独立证明请求成功。",
+          "date": "2026-10-06"
         }
-      ]
+      ],
+      "rule": "+.m-team.io"
+    }
+  ],
+  "first_collected_at": "2026-10-05T20:40:43+08:00",
+  "collection_history": [
+    {
+      "date": "2026-10-05",
+      "kind": "browser_collection",
+      "observations": 40,
+      "unique_sanitized_paths": 30
+    },
+    {
+      "date": "2026-10-06",
+      "kind": "browser_recheck",
+      "observations": 29,
+      "unique_sanitized_paths": 21
+    },
+    {
+      "date": "2026-10-06",
+      "kind": "user_confirmation",
+      "hosts": [
+        "img.digitalcore.club",
+        "ai.gateway996.com"
+      ],
+      "note": "用户确认图床已检查、新增 ai 网关并批准修改；要求合并共同根域。"
     }
   ]
 }

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import ipaddress
 from pathlib import Path
 import re
 import shutil
@@ -14,7 +15,7 @@ import tempfile
 
 
 SETS = ("core", "dependencies", "m-team")
-HOSTNAME = re.compile(r"[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?\Z")
+LABEL = re.compile(r"[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\Z")
 
 
 def run_tool(executable: str, *args: str) -> str:
@@ -30,6 +31,25 @@ def run_tool(executable: str, *args: str) -> str:
     return result.stdout.strip()
 
 
+def normalize_domain_rule(entry: str) -> str:
+    rule = entry.strip().lower()
+    is_suffix = rule.startswith("+.")
+    hostname = rule[2:] if is_suffix else rule
+    if hostname.endswith("."):
+        hostname = hostname[:-1]
+    if (
+        len(hostname) > 253
+        or "." not in hostname
+        or not all(LABEL.fullmatch(label) for label in hostname.split("."))
+    ):
+        raise ValueError(f"Expected an exact hostname or '+.' domain suffix: {entry!r}")
+    try:
+        ipaddress.ip_address(hostname)
+    except ValueError:
+        return ("+." if is_suffix else "") + hostname
+    raise ValueError(f"Expected a domain rule, not an IP address: {entry!r}")
+
+
 def read_domains(path: Path) -> set[str]:
     entries = [
         line.strip() for line in path.read_text(encoding="utf-8").splitlines()
@@ -37,19 +57,13 @@ def read_domains(path: Path) -> set[str]:
     ]
     if not entries:
         raise ValueError(f"Empty domain set: {path}")
-    if len(entries) != len(set(entries)):
-        raise ValueError(f"Duplicate domains: {path}")
-    for entry in entries:
-        if (
-            not HOSTNAME.fullmatch(entry)
-            or len(entry) > 253
-            or "." not in entry
-            or any(not label or len(label) > 63
-                   or label.startswith("-") or label.endswith("-")
-                   for label in entry.split("."))
-        ):
-            raise ValueError(f"Expected an exact hostname in {path}: {entry!r}")
-    return set(entries)
+    try:
+        normalized = [normalize_domain_rule(entry) for entry in entries]
+    except ValueError as exc:
+        raise ValueError(f"Invalid domain rule in {path}: {exc}") from exc
+    if len(normalized) != len(set(normalized)):
+        raise ValueError(f"Duplicate domain rules after normalization: {path}")
+    return set(normalized)
 
 
 def convert(executable: str, rules_dir: Path, check: bool) -> None:
@@ -88,7 +102,7 @@ def convert(executable: str, rules_dir: Path, check: bool) -> None:
             target.write_bytes(content)
         digest = hashlib.sha256(content).hexdigest()
         print(f"{'Verified' if check else 'Built'} {target.name}: "
-              f"{count} exact domains, {len(content)} bytes, sha256={digest}")
+              f"{count} domain rules, {len(content)} bytes, sha256={digest}")
 
 
 def main() -> int:

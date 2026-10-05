@@ -1,6 +1,6 @@
 # MRS 构建与核对
 
-`.mrs` 是 Mihomo 的二进制规则集。这些文件由 MetaCubeX 官方工具实际转换生成，使用 `behavior: domain`；文本和 YAML 内容也使用同一批精确主机名。
+`.mrs` 是 Mihomo 的二进制规则集。这些文件由 MetaCubeX 官方工具实际转换生成，使用 `behavior: domain`；文本和 YAML 内容也使用同一批匹配表达式（精确主机与 `+.根域`）。
 
 ## 官方依据
 
@@ -53,3 +53,13 @@ mihomo convert-ruleset domain mrs m-team.mrs restored.list
 | `m-team.mrs` | 60 | 601 | `ff8c9b1d60ce0967229c08adf428c340e2143bcd74c23e182cbb61c7d050a454` |
 
 三组均已使用官方工具反向导出文本，与相应 `.list` 域名集合一致，并通过相同工具的重新生成字节一致检查。上表记录首次构建结果；以后域名更新会改变文件校验值。
+
+## 2026-10-06 合并后构建校验记录
+
+| 文件 | 规则数 | 字节数 | SHA256 |
+| --- | ---: | ---: | --- |
+| `core.mrs` | 6 | 135 | `0538e31ded7c2755c376efcf83943b30c4b27f1a283da35d71b8db69a61d049c` |
+| `dependencies.mrs` | 38 | 501 | `af5d2ec3f10c88d36eaf93b7ed05fbbecb638f2a58fd0225a54c7675818980a7` |
+| `m-team.mrs` | 44 | 560 | `2f7798978f26277ca2398c3058fbcc8f68e1f3300ca85997148064aba004d9f6` |
+
+本轮含 `+.m-team.cc`、`+.m-team.io`、`+.gateway996.com` 后缀表达式。来源保留 64 个已纳入精确主机，生成 44 条匹配规则；三组已通过官方转换、反转集合一致与固定版本重建字节一致检查。

@@ -1,49 +1,51 @@
 # M-Team 采集来源
 
-根据 2026-10-05 的实际 Chrome 浏览记录整理。数据来源为用户已登录的 M-Team 主要页面、控制台服务选项、公开导航页、工单页和官方 Wiki。共记录 **79 个主机名**：**24 个核心服务**、**36 个图片等依赖**、**19 个资料外链或文档示例**；规则合并集包含前两组，共 **60 个精确主机名**。
+首次采集为 2026-10-05，2026-10-06 重新浏览 Chrome 页面并结合用户确认修订。记录 **83 个精确来源主机**：25 个核心、39 个图片等关联依赖、19 个外链／示例。64 个纳入主机合并为 **6 条核心 + 38 条依赖 = 44 条规则**。
 
-订阅地址和三种文件格式见[仓库首页](../../README.md)。完整来源见 [DOMAINS.md](DOMAINS.md)，维护源数据见 [domains.json](domains.json)。
+订阅及格式见[仓库首页](../../README.md)，所有来源和对应表达式见 [DOMAINS.md](DOMAINS.md)，维护数据见 [domains.json](domains.json)。
 
-## 关键服务
+## 规则与来源主机
 
-| 用途 | 观察到的主机名 |
+`hostname` 保留精确主机及证据，`rule` 保存显式合并的表达式。M-Team 命名空间归入 `+.m-team.cc`、`+.m-team.io`，两个网关主机归入 `+.gateway996.com`；其他条目缺省使用精确主机。来源表中的多条主机可对应同一生成规则，订阅不会重复输出。
+
+控制台明确提供的四个独立服务保持精确匹配：`bt1.manfuz.co`、`fr1.halomt.com`、`hs1.holysalt.org`、`tra99.manfuz.co`。没有按共享 IP 合并不相关域名，也没有扩大其他第三方根域。
+
+## 本轮增补
+
+| 主机 | 证据 |
 | --- | --- |
-| 桌面、备用和移动入口 | `kp.m-team.cc`、`zp.m-team.io`、`ob.m-team.cc`、`h5.m-team.cc`、`h5.m-team.io` |
-| API | `api.m-team.cc`、`api.m-team.io`、`api2.m-team.cc` |
-| 静态和站内图片 | `static.m-team.cc`、`img.m-team.cc` |
-| 控制台种子下载选项 | `bt1.manfuz.co`、`fr1.halomt.com`、`hs1.holysalt.org` |
-| 控制台 Tracker 选项 | `tracker.m-team.cc`、`tra1.m-team.cc`、`tracker.m-team.io`、`tra1.m-team.io`、`tra99.manfuz.co` |
-| 控制台 RSS 选项 | `rss.m-team.cc`、`rss.m-team.io` |
-| 官方说明和支持 | `wiki.m-team.cc`、`ticket.m-team.io` |
-| 图片重定向网关 | `api.gateway996.com` |
+| `tp.m-team.cc` | 小组页新文档的图片资源记录；未取得该主机对应 DOM 图片状态。 |
+| `img.digitalcore.club` | 分类分页的图片资源记录；独立刷新未重现，用户随后明确确认已检查。 |
+| `fonts.gstatic.com` | 已观察手机版 Google Fonts CSS 内 Inter 字体 `src` 引用；条件依赖，未观察实际字体请求。 |
+| `ai.gateway996.com` | 用户提供地址、确认遗漏并批准与 api 网关合并；不标成工具浏览证据。 |
 
-核心集包含 M-Team 命名空间内的服务，以及控制台明确提供的下载和 Tracker 端点。控制台提供的其他域名按服务角色归类，不据此断言其法律归属。第三方依赖集包含共享图床、封面 CDN、移动版字体样式，以及图片网关 `uri` 参数引用的上游主机。
+`api.gateway996.com` 已收录，本轮两个电影详情有内联／计算样式与资源记录，游戏页有一个图像不可用状态。已收录并不等于 DNS／浏览器图片故障已经修复。
 
-资料网站、Telegram、软件页脚、Wiki 引用的工具等仅作为外链记录。`tracker.abcdef.com` 是 Wiki 配置示例占位符，未加入任何规则。没有猜测未观察到的子域名，也没有照搬历史公共规则中的其他域名。
+## 网关上游参考
 
-官方网址入口证据：[官方 Wiki 入口说明](https://wiki.m-team.cc/zh-tw/siteurl)。控制台选项来自已登录站点的个人设定页，仅展开查看，没有选择新值或保存设置。
+以下 5 个主机仅观察到 `nested_uri`：`img1.doubanio.com`、`img2.doubanio.com`、`img3.doubanio.com`、`img9.doubanio.com`、`m.media-amazon.com`。没有直接客户端请求证据。按关联域名全集保留在依赖订阅并单列说明，未因本轮不直接出现删除；未来如定位为实际客户端连接集合，需结合重定向／请求证据再审核范围。
 
-## 图片加载错误
+资料外链和文档示例仅保留来源，不进入规则。`tracker.abcdef.com` 是配置示例，不是实际 Tracker。
 
-本次浏览器控制台错误指向 `api.gateway996.com`，提示请求访问 `local` 地址空间被拒绝。将域名加入普通分流规则本身不会修复 DNS 返回本地地址或 Fake-IP 的问题。
+## 覆盖范围与证据
 
-若已有 Mihomo DNS 配置使用 `fake-ip-filter-mode: blacklist`，可先把精确主机 `api.gateway996.com` 合并进现有 `fake-ip-filter`，让它不返回 Fake-IP。应保留原有过滤项及其他 DNS 设置；`whitelist` 或 `rule` 模式需按各自语义调整。需要更广范围时可参考 [examples/m-team-fake-ip-filter.yaml](../../examples/m-team-fake-ip-filter.yaml)，它只作为合并示例。依据：[Mihomo DNS 过滤说明](https://wiki.metacubex.one/config/dns/#fake-ip-filter)。
+两轮分别有 40 与 29 条采样，包含首页、电影、电视、音乐、综合分类、软件、游戏、电子书、分类分页、详情、小组、展示、上传、卡片、论坛、片单、求种、候选、字幕、控制台、手机版、导航、工单及官方 Wiki。重复页面状态保留在 `pages_checked`，日期分开记录，不能把采样数当成不同页面数。
 
-这份规则集没有修改用户本机 DNS、浏览器权限或网络设置，也不保证仅靠过滤项就能解决所有图片加载失败。
+证据类型：`page` 为页面地址；`link`／`image`／`inline_style` 等为 DOM 引用；`visible_domain` 为控制台选项；`observed_*` 为资源记录；`nested_uri` 为上游参数；`nested_imdb`／`nested_douban` 为资料目标；`stylesheet_reference` 为已观察 CSS 的条件引用；`user_reported`／`user_confirmed` 为用户补充。每条证据保留日期和脱敏页面路径。
 
-## 覆盖范围和证据
+资源记录可能包含 SPA 较早请求，新文档资源也不提供 HTTP 状态、是否缓存或最终 IP。引用不独立证明加载成功；当前未重现不证明旧主机错误。本轮没有按未出现删除旧项，也没有穷尽历史种子、帖子、用户图床或未来子域。备用网址证据：[官方 Wiki 入口](https://wiki.m-team.cc/zh-tw/siteurl)。
 
-本次有 40 次页面或页面状态采集，脱敏后对应 30 个不同页面路径，覆盖首页、电影、电视、音乐、综合分类、游戏、电子书、软件、成人分类、一个详情页、片单列表、论坛、求种、候选、字幕、制作组、展示、上传页、活动和支持页面，以及 Wiki 的入口、下载规则、FAQ、Tracker 故障和 IP 说明。
+只保存主机、匹配表达式与脱敏路径；查询、签名、passkey、账号信息、Cookie 和详情编号均不保留。控制台仅展开选项，没有保存设置，未探测 Tracker 或下载种子。
 
-证据保存在 `domains.json`：`page` 表示实际页面地址；`link`、`image`、`script` 等来自 DOM；`visible_domain` 来自可见服务选项；`observed_*` 来自浏览器已观察的资源清单；`nested_uri` 表示图片参数中的上游主机，`nested_imdb`／`nested_douban` 表示资料目标链接。
+## 图片加载与 Fake-IP
 
-浏览器资源清单可能保留 SPA 较早请求，故 `observed_*` 不能证明每个页面都重新请求了该域名。每个主机和证据类型仅保留首次记录，重复记录已归并；采集页面及状态单独列出。图片上游参数也不等于浏览器直接连接过上游。备用入口部分只查看登录页或链接；没有穷尽所有历史种子、帖子、用户图床，也没有探测 Tracker 的可用性。
+用户此前控制台错误指向 `api.gateway996.com`，提示 `local` 地址空间访问被拒绝。本轮一个网关图片不可用状态没有对应错误码或当前 DNS 结果，不能据此认定其仍是同一原因。
 
-保存的信息只含主机名和脱敏来源路径，不包含完整图片签名 URL、passkey、账户信息、Cookie 或具体详情页编号。
+网关后缀可用于现有 Fake-IP 过滤。`rule` 模式使用 `DOMAIN-SUFFIX,gateway996.com,real-ip` 与 `RULE-SET,你的provider名,real-ip`，放在 `MATCH,fake-ip` 前；`blacklist` 模式参考 [生成示例](../../examples/m-team-fake-ip-filter.yaml)。必须按现有模式合并，不能用 blacklist 片段替换 rule 配置。过滤不指定直连／代理业务策略。依据：[Mihomo DNS 过滤](https://wiki.metacubex.one/config/dns/#fake-ip-filter-mode)。
 
-## 更新源数据
+## 更新步骤
 
-1. 在实际页面中确认新域名，记录用途及脱敏来源，区分页面请求、上游参数、资料外链和占位示例。
-2. 修改 `domains.json`，更新采集日期、时区、覆盖范围及 `include_in_core`／`include_in_dependencies` 标记；两组不得重叠，外链不进入规则。
-3. 从仓库根目录执行 `python scripts/build.py --mihomo /path/to/mihomo`，再执行 `python scripts/build.py --check --mihomo /path/to/mihomo`。
-4. 一并提交源数据、明细说明和生成文件；数量或范围发生变化时更新本说明及仓库首页。
+1. 确认来源主机、用途与证据，区分请求、条件引用、上游参数和外链。
+2. 更新 `domains.json` 的日期、证据、纳入标记及必要的 `rule`。两组互斥；后缀须覆盖 hostname。
+3. 执行 `python scripts/build.py --mihomo /path/to/mihomo` 和对应 `--check`。
+4. 一并提交来源、说明、三种生成格式及最新构建校验记录。

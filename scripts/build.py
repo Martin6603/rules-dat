@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build exact-hostname M-Team rule files from the reviewed source inventory."""
+"""Build M-Team domain rules from the reviewed hostname inventory."""
 
 import argparse
 import datetime as dt
@@ -39,6 +39,44 @@ def normalize_hostname(value):
     except ValueError:
         return hostname
     raise ValueError(f"expected a hostname, not an IP address: {value!r}")
+
+
+def normalize_rule(value, hostname):
+    rule = require_text(value, "rule").strip().lower()
+    is_suffix = rule.startswith("+.")
+    root = normalize_hostname(rule[2:] if is_suffix else rule)
+    if is_suffix:
+        if hostname != root and not hostname.endswith("." + root):
+            raise ValueError(f"rule {rule!r} does not cover hostname {hostname!r}")
+        return "+." + root
+    if root != hostname:
+        raise ValueError(f"exact rule {rule!r} must equal hostname {hostname!r}")
+    return root
+
+
+def rules_overlap(left, right):
+    left_suffix, right_suffix = left.startswith("+."), right.startswith("+.")
+    left_root = left[2:] if left_suffix else left
+    right_root = right[2:] if right_suffix else right
+    return (
+        left_root == right_root
+        or (left_suffix and right_root.endswith("." + left_root))
+        or (right_suffix and left_root.endswith("." + right_root))
+    )
+
+
+def validate_rule_sets(sets):
+    for name, rules in sets.items():
+        for index, left in enumerate(rules):
+            for right in rules[index + 1:]:
+                if rules_overlap(left, right):
+                    raise ValueError(f"redundant overlapping rules in {name}: {left}, {right}")
+    for core in sets["core"]:
+        for dependency in sets["dependencies"]:
+            if rules_overlap(core, dependency):
+                raise ValueError(
+                    f"core and dependency rules must be disjoint: {core}, {dependency}"
+                )
 
 
 def read_inventory(path):
@@ -95,25 +133,27 @@ def read_inventory(path):
                 raise ValueError(f"{location}.evidence[{evidence_index}]: expected an object")
             for field in ("page_path", "kind", "note"):
                 require_text(observation.get(field), f"{location}.evidence[{evidence_index}].{field}")
-        entries.append({**item, "hostname": hostname})
+        rule = normalize_rule(item.get("rule", hostname), hostname)
+        entries.append({**item, "hostname": hostname, "rule": rule})
     return data, entries
 
 
 def render_rule_files(data, entries):
     files = {}
     sets = {
-        "core": sorted(item["hostname"] for item in entries if item["include_in_core"]),
-        "dependencies": sorted(
-            item["hostname"] for item in entries if item["include_in_dependencies"]
-        ),
+        "core": sorted({item["rule"] for item in entries if item["include_in_core"]}),
+        "dependencies": sorted({
+            item["rule"] for item in entries if item["include_in_dependencies"]
+        }),
     }
+    validate_rule_sets(sets)
     union = sorted(set(sets["core"]) | set(sets["dependencies"]))
     for name, hostnames in {**sets, "m-team": union}.items():
         domain_list = "".join(hostname + "\n" for hostname in hostnames)
         files[f"{name}.list"] = domain_list
         files[f"{name}.yaml"] = (
             f"# Generated from sources/m-team/domains.json; collected {data['date']}.\n"
-            "# Mihomo rule-provider: behavior: domain; format: yaml. Exact hosts only.\n"
+            "# Mihomo rule-provider: behavior: domain; format: yaml. '+.' covers root and subdomains.\n"
             + ("payload:\n" + "".join(f"  - '{hostname}'\n" for hostname in hostnames)
                if hostnames else "payload: []\n")
         )
@@ -124,7 +164,7 @@ def render_fake_ip_example(sets):
     union = sorted(set(sets["core"]) | set(sets["dependencies"]))
     return (
         "# Example only: merge entries into your existing blacklist-mode DNS configuration.\n"
-        "# This fragment does not select a traffic-routing policy. Exact hosts only.\n"
+        "# This fragment does not select a traffic-routing policy. '+.' covers root and subdomains.\n"
         "dns:\n"
         "  fake-ip-filter-mode: blacklist\n"
         + ("  fake-ip-filter:\n" + "".join(f"    - '{hostname}'\n" for hostname in union)
@@ -160,7 +200,7 @@ def main(argv=None):
                 path.parent.mkdir(parents=True, exist_ok=True)
                 path.write_bytes(expected[path])
         print(f"{'Checked' if args.check else 'Built'} {len(expected)} text files: "
-              f"{len(sets['core'])} core hosts, {len(sets['dependencies'])} dependency hosts")
+              f"{len(sets['core'])} core rules, {len(sets['dependencies'])} dependency rules")
         if args.mihomo:
             command = [sys.executable, str(PROJECT / "scripts" / "convert_mrs.py"),
                        "--mihomo", str(args.mihomo.resolve()),
